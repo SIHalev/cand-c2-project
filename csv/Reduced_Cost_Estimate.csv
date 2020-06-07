@@ -1,0 +1,18 @@
+Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,131.4,1576.80,USD,Number of NAT Gateways (2)
+My Estimate,US East (N. Virginia),S3 Standard,0,50.54,606.48,USD,S3 Standard storage (1000 GB per month)
+My Estimate,US East (N. Virginia),Data Transfer,0,92.07,1104.84,USD,"Data Transfer, Data transfer cost (92.07)"
+My Estimate,US East (N. Virginia),Amazon RDS for PostgreSQL,0,2411.84,28942.08,USD,"Quantity (1), Storage volume (General Purpose SSD (gp2)), Storage amount (1 TB per month), Instance type (db.m5.4xlarge), Additional backup storage (1 TB)"
+My Estimate,US East (N. Virginia),Amazon Route 53,0,187.5,2250.00,USD,"Number of Elastic Network Interfaces (2), Hosted Zones (2)"
+My Estimate,US East (N. Virginia),Elastic Load Balancing,0,220.83,2649.96,USD,Number of Application Load Balancers (1)
+My Estimate,US East (N. Virginia),Elastic Load Balancing,0,104.03,1248.36,USD,"Number of Network Load Balancers (1), Processed bytes per NLB for TCP (10 GB per hour), Average number of new TCP connections (50 per second), Average TCP connection duration (10 seconds), Processed bytes per NLB for TLS (10 GB per hour), Average number of new TLS connections (100 per second), Average TLS connection duration (100 seconds)"
+My Estimate,US East (N. Virginia),Amazon EC2,0,932.2,11186.40,USD,"Operating system (Linux), Quantity (2), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (500 GB), Instance type (r5a.4xlarge)"
+My Estimate,US East (N. Virginia),Amazon EC2,0,932.2,11186.40,USD,"Operating system (Linux), Quantity (2), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (500 GB), Instance type (r5a.4xlarge)"
+My Estimate,US East (N. Virginia),Amazon CloudWatch,0,354,4248.00,USD,
+
+
+
+"AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
+
+
+I have downscale the EC2 instances and the RDS, but kept their count. The other services are the same, because they are needed and will not reduce the cost that much.
